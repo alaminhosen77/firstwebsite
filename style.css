@@ -1,0 +1,107 @@
+*{margin:0;padding:0;}
+body{background:#999;}
+a{color:#FFF;}
+marquee a{color:#000;}
+.header_pannel{background: url(image/logo.jpg) repeat center center fixed;color:#fff;}
+.left img{float:right;padding:6px;}
+.left a :hover {background:#3b75f1;border-radius:10px;}
+.search_op{padding:5px;margin-top:5px;}
+.costom_nav{margin-bottom: 0px;background:#279940;}
+.nav a{background:#202264;margin-left:5px; }
+.nav a{margin-bottom:1px;}
+.nav li:hover a{background:#2f34dd;color:#fff;}
+.uptd{background:#8f8b8b;color:#fff;}
+.lgA{background:#e8e7e2;}
+.lgb{border-bottom:5px;}
+.lgb span {background:#adf;}
+.body_pannel {background:#fff;}
+.well{background:#c9c9c9 ;}
+.leftsideber, .rightsideber{background: #899499;box-shadow: 0px 0px 6px;}
+
+/* footer */
+.bbb{background: url(image/foot_bac.png) repeat center center fixed;color:#FFF;}
+.leftt img{float:left;padding:9px;}
+.ffff{background:#000;color:#fff;}
+.aaaaa{margin: 5px 0px;;padding:0;}
+
+
+
+
+
+
+@media (max-width:992px) {
+	.navbar-brand{
+		display:none;
+		
+	}
+
+}
+/* celender */
+.month {background-color:black;font:bold 12px verdana;color:white;}
+.daysofweek {background-color:gray;font:bold 12px verdana;color:white;}
+.days {font-size: 12px;font-family:verdana;color:black;background-color: lightyellow;padding: 2px;}
+.days #today{font-weight: bold;color: #F00;background:#0f0;display:block;}
+.main{width:100%;border:1px solid black;}
+#wrapper{
+	width:100%;
+	height:220px;
+	background:#ddd;
+	margin:0 auto;
+}
+.first{
+	transition: all 0.2s ease 0s;
+	position:absolute;
+	z-index:1;
+}
+.first:hover{
+	width:80%;
+	transform: scale(1.15);
+	margin:15px;
+	margin-left:10px;
+	z-index:6;
+}
+.second{
+	transition: all 0.2s ease 0s;
+	position:absolute;
+	margin-left:100px;
+	margin-top:0px;
+	z-index:2;
+}
+
+.second:hover{
+	width:80%;
+	transform: scale(1.15);
+	margin:15px;
+	z-index:7;
+	margin-left:10px;
+}
+.third{
+
+	transition: all 0.2s ease 0s;
+	position:absolute;
+	margin-left:0px;
+	margin-top:110px;
+	z-index:3;
+}
+.third:hover{
+	width:80%;
+	transform: scale(1.15);
+	margin:15px;
+	z-index:8;
+	margin-left:10px;
+}
+.forth{
+	transition: all 0.2s ease 0s;
+	position:absolute;
+	margin-left:100px;
+	margin-top:110px;
+	z-index:4;
+}
+.forth:hover{
+	width:80%;
+	transform: scale(1.15);
+	margin:15px;
+	margin-left:10px;
+	z-index:9;
+}
+
